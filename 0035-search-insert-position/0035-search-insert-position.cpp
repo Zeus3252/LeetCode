@@ -14,6 +14,7 @@ public:
         
         nums.push_back(target);
         sort(nums.begin(), nums.end());
+        
         i = 0;
         while (i <= arrSize) {
             if (nums[i] == target) {
@@ -22,10 +23,8 @@ public:
                 i++;    
             }
         }
-          
-           
+            
           return 0;
         }
     
-  
 };
