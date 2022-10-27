@@ -8,7 +8,7 @@ public:
     while (i < arrSize) {
         if (nums[i] != target){
         i++;
-     }else if (nums[i] == target){
+     } else if (nums[i] == target){
         return i;  
      }  
   }  
