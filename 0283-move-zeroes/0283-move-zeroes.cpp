@@ -1,4 +1,4 @@
-class Solution {
+class Solution { //Two Pointers Algorithm
 public:
     void moveZeroes(vector<int>& nums) {
         int i = 0; //i and y are pointers which traverse the nums array
