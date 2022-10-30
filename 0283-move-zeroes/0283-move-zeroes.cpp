@@ -11,7 +11,7 @@ public:
                 swap(nums[i], nums[y]); //swap values at indexes
                 i++;
                 y++;
-        } else if (nums[i] == 0 && nums[y] == 0) {//Compare 0,1, traverse second pointer y 
+        } else if (nums[i] == 0 && nums[y] == 0) {//Compare 0,0, traverse second pointer y 
                 y++;
         } else { //Compare 1,0, traverse both pointers
                 i++;
